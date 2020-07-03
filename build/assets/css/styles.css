@@ -1,2 +1,7 @@
-colour {
-  background-color: #ff0; }
+/* Colours */
+/* Gradients */
+/* breakpoints */
+/* Typography */
+body {
+  background: #ffa399;
+  background: linear-gradient(90deg, #ffa399 0%, #ff4d97 100%); }

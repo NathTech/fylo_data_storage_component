@@ -1,0 +1,28 @@
+
+/* Colours */
+
+$blue-pale: hsl(243, 100%, 93%);
+$blue-gray: hsl(229, 7%, 55%);
+$blue-dark: hsl(228, 56%, 26%);
+$blue-very-dark: hsl(229, 57%, 11%);
+
+$pink-light: hsl(6, 100%, 80%);
+$pink: hsl(335, 100%, 65%);
+
+/* Gradients */
+
+@mixin pink-gradient {
+    background: $pink-light;
+    background: linear-gradient(90deg, $pink-light 0%, $pink 100%);
+}
+
+/* breakpoints */
+
+$mobile: 375px;
+$desktop: 1440px;
+
+/* Typography */
+
+$font-family: 'Raleway', sans-serif;
+$font-regular: 400;
+$font-bold: 700;

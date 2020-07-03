@@ -1,6 +1,4 @@
 
-$background: #ff0;
+@import 'utilities/variables';
 
-colour {
-    background-color: $background;
-}
+@import 'base'
